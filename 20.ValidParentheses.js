@@ -27,22 +27,9 @@ const isValid = s => {
 }
 
 /**
- * @Input: s = "()"
- * @Output: true
+ *  @Runtime: {76 ms}
+ *  @Memory: {41.6 MB}
  */
-console.log(isValid("()"))
-
-/**
- * @Input: s = "()[]{}"
- * @Output: true
- */
-console.log(isValid("()[]{}"))
-
-/**
- * @Input: s = "(]"
- * @Output: false
- */
-console.log(isValid("C]"))
 
 
 

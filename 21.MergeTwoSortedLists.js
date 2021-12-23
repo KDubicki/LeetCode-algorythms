@@ -23,3 +23,8 @@ const mergeTwoLists = (list1, list2) => {
         return list2;
     }
 }
+
+/**
+ *  @Runtime: {84 ms}
+ *  @Memory: {40.5 MB}
+ */
