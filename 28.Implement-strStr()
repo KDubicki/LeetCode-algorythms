@@ -1,0 +1,13 @@
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+const strStr = (haystack, needle) => {
+    return haystack.indexOf(needle)
+}
+
+/**
+ *  @Runtime: {68 ms}
+ *  @Memory: {40.3 MB}
+ */
