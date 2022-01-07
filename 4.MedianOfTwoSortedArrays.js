@@ -12,3 +12,8 @@ const findMedianSortedArrays = (nums1, nums2) => {
     let index = Math.floor(nums.length / 2)
     return (nums[index] + nums[index - 1]) / 2
 }
+
+/**
+ *  @Runtime: {191 ms}
+ *  @Memory: {45.4 MB}
+ */
